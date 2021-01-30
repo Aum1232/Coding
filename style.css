@@ -70,7 +70,7 @@ p {
 .menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     z-index: 10;
@@ -88,4 +88,16 @@ p {
 
 .link::hover {
     background-color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.article:hover{
+    color: white;
 }
